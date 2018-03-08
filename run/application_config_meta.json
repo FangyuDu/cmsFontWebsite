@@ -1,0 +1,345 @@
+{
+  "siteFile": {
+    "/favicon.ico": "F:\\project\\cmsFontWebsite\\config\\config.default.js"
+  },
+  "view": {
+    "cache": "F:\\project\\cmsFontWebsite\\node_modules\\egg-view\\config\\config.local.js",
+    "root": "F:\\project\\cmsFontWebsite\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultExtension": "F:\\project\\cmsFontWebsite\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "F:\\project\\cmsFontWebsite\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": {
+      ".js": "F:\\project\\cmsFontWebsite\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
+    }
+  },
+  "vuessr": {
+    "layout": "F:\\project\\cmsFontWebsite\\config\\config.default.js",
+    "doctype": "F:\\project\\cmsFontWebsite\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "manifest": "F:\\project\\cmsFontWebsite\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectHeadRegex": "F:\\project\\cmsFontWebsite\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectBodyRegex": "F:\\project\\cmsFontWebsite\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectCss": "F:\\project\\cmsFontWebsite\\node_modules\\egg-view-vue-ssr\\config\\config.local.js",
+    "injectJs": "F:\\project\\cmsFontWebsite\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "crossorigin": "F:\\project\\cmsFontWebsite\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectRes": "F:\\project\\cmsFontWebsite\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "fallbackToClient": "F:\\project\\cmsFontWebsite\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "cache": {
+      "max": "F:\\project\\cmsFontWebsite\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+      "maxAge": "F:\\project\\cmsFontWebsite\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
+    },
+    "afterRender": "F:\\project\\cmsFontWebsite\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
+  },
+  "logger": {
+    "consoleLevel": "F:\\project\\cmsFontWebsite\\config\\config.default.js",
+    "dir": "F:\\project\\cmsFontWebsite\\config\\config.default.js",
+    "encoding": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "env": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "level": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "F:\\project\\cmsFontWebsite\\config\\config.default.js",
+    "dir": "F:\\project\\cmsFontWebsite\\config\\config.default.js",
+    "maxAge": "F:\\project\\cmsFontWebsite\\config\\config.local.js",
+    "dynamic": "F:\\project\\cmsFontWebsite\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "F:\\project\\cmsFontWebsite\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "F:\\project\\cmsFontWebsite\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "F:\\project\\cmsFontWebsite\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "keys": "F:\\project\\cmsFontWebsite\\config\\config.default.js",
+  "middleware": "F:\\project\\cmsFontWebsite\\config\\config.default.js",
+  "development": {
+    "watchDirs": "F:\\project\\cmsFontWebsite\\config\\config.local.js",
+    "ignoreDirs": "F:\\project\\cmsFontWebsite\\config\\config.local.js",
+    "fastReady": "F:\\project\\cmsFontWebsite\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "F:\\project\\cmsFontWebsite\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "F:\\project\\cmsFontWebsite\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logview": {
+    "dir": "F:\\project\\cmsFontWebsite\\config\\config.local.js",
+    "prefix": "F:\\project\\cmsFontWebsite\\node_modules\\egg-logview\\config\\config.default.js",
+    "staticHost": "F:\\project\\cmsFontWebsite\\node_modules\\egg-logview\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "F:\\project\\cmsFontWebsite\\config\\config.local.js",
+    "protocolWhiteList": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "F:\\project\\cmsFontWebsite\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "F:\\project\\cmsFontWebsite\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "F:\\project\\cmsFontWebsite\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "F:\\project\\cmsFontWebsite\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "F:\\project\\cmsFontWebsite\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "F:\\project\\cmsFontWebsite\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "F:\\project\\cmsFontWebsite\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "F:\\project\\cmsFontWebsite\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "F:\\project\\cmsFontWebsite\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "F:\\project\\cmsFontWebsite\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "F:\\project\\cmsFontWebsite\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "F:\\project\\cmsFontWebsite\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "F:\\project\\cmsFontWebsite\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "F:\\project\\cmsFontWebsite\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "F:\\project\\cmsFontWebsite\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "F:\\project\\cmsFontWebsite\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "F:\\project\\cmsFontWebsite\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "F:\\project\\cmsFontWebsite\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "F:\\project\\cmsFontWebsite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "F:\\project\\cmsFontWebsite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "F:\\project\\cmsFontWebsite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "F:\\project\\cmsFontWebsite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "F:\\project\\cmsFontWebsite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "F:\\project\\cmsFontWebsite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "F:\\project\\cmsFontWebsite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "F:\\project\\cmsFontWebsite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "F:\\project\\cmsFontWebsite\\node_modules\\egg-multipart\\config\\config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "F:\\project\\cmsFontWebsite\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "F:\\project\\cmsFontWebsite\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "F:\\project\\cmsFontWebsite\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "F:\\project\\cmsFontWebsite\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "F:\\project\\cmsFontWebsite\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "F:\\project\\cmsFontWebsite\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "F:\\project\\cmsFontWebsite\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "F:\\project\\cmsFontWebsite\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "F:\\project\\cmsFontWebsite\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "cors": "F:\\project\\cmsFontWebsite\\node_modules\\egg-cors\\config\\config.default.js",
+  "webpack": {
+    "port": "F:\\project\\cmsFontWebsite\\node_modules\\egg-webpack\\config\\config.default.js",
+    "proxy": "F:\\project\\cmsFontWebsite\\node_modules\\egg-webpack\\config\\config.default.js",
+    "proxyMapping": {
+      "js": "F:\\project\\cmsFontWebsite\\node_modules\\egg-webpack\\config\\config.default.js",
+      "css": "F:\\project\\cmsFontWebsite\\node_modules\\egg-webpack\\config\\config.default.js",
+      "json": "F:\\project\\cmsFontWebsite\\node_modules\\egg-webpack\\config\\config.default.js",
+      "html": "F:\\project\\cmsFontWebsite\\node_modules\\egg-webpack\\config\\config.default.js",
+      "map": "F:\\project\\cmsFontWebsite\\node_modules\\egg-webpack\\config\\config.default.js"
+    },
+    "webpackConfigList": "F:\\project\\cmsFontWebsite\\node_modules\\egg-webpack\\config\\config.default.js"
+  },
+  "env": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+  "name": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "version": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "description": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "debug": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "build": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "build:dev": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "build:test": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "build:prod": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "start": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "start:test": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "start:prod": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "lint": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "fix": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "axios": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "egg": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "egg-logger": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "egg-validate": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-vue-ssr": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "element-ui": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "extend": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "lodash": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "mint-ui": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "mockjs": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "moment": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "vue": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "vue-hot-reload-api": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "vue-router": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "vue-server-renderer": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "vuex": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "vuex-router-sync": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod-egg": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "autoprefixer": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "babel-core": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "babel-eslint": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "babel-loader": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-add-module-exports": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-syntax-dynamic-import": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-transform-object-assign": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-transform-object-rest-spread": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-transform-runtime": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "babel-preset-env": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "cross-env": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "directory-named-webpack-plugin": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "easywebpack-cli": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "easywebpack-vue": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "egg-logview": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "egg-webpack": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "egg-webpack-vue": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "eslint-loader": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "eslint-plugin-vue": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "imagemin-webpack-plugin": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "install": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "ip": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "less": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "less-loader": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "node-sass": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "postcss-loader": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "progress-bar-webpack-plugin": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "sass-loader": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "uglifyjs-webpack-plugin": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "vconsole": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "vue-template-compiler": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "webpack-manifest-resource-plugin": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "url": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "license": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "homepage": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "strict": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "depth": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "httpclient": {
+    "enableDNSCache": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+    "logging": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "port": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "F:\\project\\cmsFontWebsite\\node_modules\\egg\\config\\config.default.js"
+  }
+}
