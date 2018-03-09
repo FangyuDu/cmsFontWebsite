@@ -6,8 +6,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/api/article/list",
-    "regexp": "/^\\/api\\/article\\/list(?:\\/(?=$))?$/",
+    "path": "/",
+    "regexp": "/^(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -18,20 +18,9 @@
       "HEAD",
       "GET"
     ],
-    "paramNames": [
-      {
-        "name": "id",
-        "prefix": "/",
-        "delimiter": "/",
-        "optional": false,
-        "repeat": false,
-        "partial": false,
-        "asterisk": false,
-        "pattern": "[^\\/]+?"
-      }
-    ],
-    "path": "/api/article/:id",
-    "regexp": "/^\\/api\\/article\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "paramNames": [],
+    "path": "/api/scanFonts",
+    "regexp": "/^\\/api\\/scanFonts(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -42,20 +31,21 @@
       "HEAD",
       "GET"
     ],
-    "paramNames": [
-      {
-        "name": 0,
-        "prefix": "/",
-        "delimiter": "/",
-        "optional": false,
-        "repeat": false,
-        "partial": false,
-        "asterisk": true,
-        "pattern": ".*"
-      }
+    "paramNames": [],
+    "path": "/api/getAllFonts",
+    "regexp": "/^\\/api\\/getAllFonts(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
     ],
-    "path": "/*",
-    "regexp": "/^\\/((?:.*))(?:\\/(?=$))?$/",
+    "paramNames": [],
+    "path": "/api/downloadFonts",
+    "regexp": "/^\\/api\\/downloadFonts(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

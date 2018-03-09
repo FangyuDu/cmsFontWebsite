@@ -1,8 +1,6 @@
 <template>
   <div class="main">
-    <div class="page-container page-component">
-      <slot name="content"></slot>
-    </div>
+    <slot name="content"></slot>
   </div>
 </template>
 <style>

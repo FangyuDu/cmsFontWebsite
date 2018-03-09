@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CMSUI demo</title>
+  <link rel="stylesheet" href="font.css">
+  <style>
+    body, p {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 1200px;
+      margin: 30px auto;
+    }
+    .container:after {
+      content: '';
+      display:table;
+      clear: both;
+    }
+    .font-item {
+      box-sizing: border-box;
+      width: 149px;
+      float: left;
+      text-align: center;
+      border: solid 1px #000;
+      margin-left: -1px;
+      margin-bottom: -1px;
+    }
+    .fi-icon {
+      font-size: 30px;
+      margin: 10px auto 5px;
+    }
+    .fi-code {
+      font-size: 14px;
+      line-height: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <% glyphs.forEach(function(glyph) {%>
+      <div class="font-item">
+        <i class="fi-icon cmsui-icon-${glyph.code}"></i>
+        <p class="fi-code">${glyph.code}</p>
+      </div>        
+    <% })%>
+  </div>
+</body>
+</html>

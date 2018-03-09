@@ -2,25 +2,21 @@ import Vue from 'vue';
 
 import VueRouter from 'vue-router';
 
-import ListView from './list';
+import Home from '../home/index.vue';
+import Admin from '../admin/index.vue';
 
 Vue.use(VueRouter);
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   base: '/',
   routes: [
     {
       path: '/',
-      component: ListView
-    },
-    {
-      path: '/list',
-      component: ListView
-    },
-    {
-      path: '/detail/:id',
-      component: () => import('./detail')
+      component: Home
+    }, {
+      path: '/admin',
+      component: Admin
     }
   ]
 });

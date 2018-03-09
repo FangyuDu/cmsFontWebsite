@@ -9,8 +9,7 @@ import mutations from './mutations'
 Vue.use(Vuex);
 
 const state = {
-  articleList: [],
-  article: {}
+  fontList: []
 };
 
 export default new Vuex.Store({

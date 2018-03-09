@@ -1,28 +1,11 @@
-<template>
-  <header class="header">
-    <div class="container"><h1>
-      <a href="" class="router-link-active">Egg + Vue</a></h1>
-      <ul class="nav">
-        <li class="nav-item"><a href="/" :class="{'active' : selectedMenu === '/'}">Single-Page</a></li>
-      </ul>
-    </div>
-  </header>
+<template lang="pug">
+  .app-header
+    .container 字体快速转换
 </template>
-<style>
-  @import "./header.css";
-</style>
-<script type="text/babel">
-  export default{
-    data(){
-      return {
-        selectedMenu : '/app'
-      }
-    },
-    computed:{
-
-    },
-    mounted(){
-      this.selectedMenu = window.location.pathname.toLowerCase().replace(/\/$/,'');
-    }
+<style lang="scss" scoped>
+  .app-header {
+    height:50px;
+    background-color: #222;
+    color: #fff;
   }
-</script>
+</style>
