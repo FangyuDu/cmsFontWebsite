@@ -43,5 +43,5 @@ module.exports = function(data = {}) {
   // console.log('——————开始构建——————')
   // console.log(svgFontTemplate(conf))
   // console.log('——————结束构建——————')
-  return (svgFontTemplate(conf))
+  return svgFontTemplate(conf)
 }

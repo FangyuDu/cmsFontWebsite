@@ -8,7 +8,7 @@ import Admin from '../admin/index.vue';
 Vue.use(VueRouter);
 
 const router = new VueRouter({
-  mode: 'hash',
+  mode: 'history',
   base: '/',
   routes: [
     {

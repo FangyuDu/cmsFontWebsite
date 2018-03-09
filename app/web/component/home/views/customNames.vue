@@ -1,6 +1,6 @@
 <template lang="pug">
   section
-    h2 自定义类名
+    h2 暂未开放
 </template>
 <script>
 export default {

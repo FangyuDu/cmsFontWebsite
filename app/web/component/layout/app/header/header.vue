@@ -1,6 +1,7 @@
 <template lang="pug">
   .app-header
-    .container 字体快速转换
+    .container 
+      router-link(to="/") 字体快速转换
 </template>
 <style lang="scss" scoped>
   .app-header {

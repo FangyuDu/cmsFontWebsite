@@ -3,9 +3,6 @@
     <slot name="content"></slot>
   </div>
 </template>
-<style>
-  @import "content.css";
-</style>
 <script type="text/babel">
   export default{
     name:'v-content',

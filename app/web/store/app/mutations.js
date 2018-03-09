@@ -5,21 +5,19 @@ import {
   SET_ARTICLE_DETAIL,
   ADD_FONT,
   REDUCE_FONT,
-  SET_FONT_LIST
+  SET_FONT_LIST,
+  SET_ALL_FONTS
 } from './mutation-type'
 
 const mutations = {
-  [SET_ARTICLE_LIST] (state, items){
-    state.articleList = items;
+  [SET_ALL_FONTS] (state, allFonts) {
+    state.allFonts = allFonts
   },
   [ADD_FONT] (state, font) {
     state.fontList.push(font)
   },
   [REDUCE_FONT] (state, index) {
     state.fontList.splice(index, 1)
-  },
-  [SET_ARTICLE_DETAIL](state, data) {
-    state.article = data;
   },
   [SET_FONT_LIST] (state, items) {
     state.fontList = items

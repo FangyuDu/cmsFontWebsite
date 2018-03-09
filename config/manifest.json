@@ -1,9 +1,9 @@
 {
   "app/app.js": "/public/js/app/app.js",
   "common.js": "/public/js/common.js",
+  "font/cmsui-font.ttf": "/public/font/cmsui-font.ttf",
   "font/element-icons.ttf": "/public/font/element-icons.ttf",
   "font/element-icons.woff": "/public/font/element-icons.woff",
-  "font/cmsui-font.ttf": "/public/font/cmsui-font.ttf",
   "vendor.js": "/public/js/vendor.js",
   "deps": {
     "app/app.js": {

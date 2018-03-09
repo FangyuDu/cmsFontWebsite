@@ -10,6 +10,9 @@ Vue.use(Vuex);
 const host = ''; //http://127.0.0.1:7001
 
 const actions = {
+  setAllFonts: ({commit, state}, allFonts) => {
+    commit(Type.SET_ALL_FONTS, allFonts)
+  },
   toggleFont: ({commit, state}, font) => {
     let i = state.fontList.indexOf(font)
     if (i === -1) {

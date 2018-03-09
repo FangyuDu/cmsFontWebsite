@@ -6,8 +6,7 @@ const _ = require('lodash')
 const svgpath = require('svgpath')
 const svg_image_flatten = require('../lib/_svg_image_flatten');
 
-let start = 0xe601
-function import_svg_image(data) {
+function import_svg_image(data, code) {
   let res = svg_image_flatten(data)
   let scale = 1000 / res.height
   let d = new svgpath(res.d)
@@ -20,19 +19,11 @@ function import_svg_image(data) {
   let width = Math.round(res.width) * scale
   return {
     css: 'test',
-    code: start.toString(16),
-    charRef: start++,
+    code: code.toString(16),
+    charRef: code,
     d,
     width
   }
 }
 
-// svgo.optimize(file)
-//   .then(result => {
-//     fs.writeFileSync('a.svg', result.data)
-//     console.log(result)
-//   })
-
-module.exports = function (file) {
-  return import_svg_image(file)
-}
+module.exports = import_svg_image

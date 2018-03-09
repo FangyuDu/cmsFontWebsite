@@ -10,8 +10,6 @@ function build(data, dir) {
     buildHtml: tempHtml(data),
     buildCss: tempCss(data)
   }
-  // fs.writeFile(Path.join(dir, 'index.html'), tempHtml(data))
-  // fs.writeFile(Path.join(dir, 'font.css'), tempCss(data))
 }
 
 module.exports = build

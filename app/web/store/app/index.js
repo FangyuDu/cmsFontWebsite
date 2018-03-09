@@ -9,7 +9,8 @@ import mutations from './mutations'
 Vue.use(Vuex);
 
 const state = {
-  fontList: []
+  fontList: [], // 已选
+  allFonts: [] // 所有
 };
 
 export default new Vuex.Store({

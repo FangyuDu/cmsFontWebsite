@@ -8,11 +8,7 @@ const zipDemo = require('../bin/zipDemo')
 const scanFonts = require('../bin/scanFonts')
 
 exports.scanFonts = async ctx => {
-  scanFonts(ctx)
-  ctx.body = {
-    success: true,
-    message: '已扫描完成'
-  }  
+  ctx.body = scanFonts(ctx)
 }
 
 // 获取所有图标
